@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
     <nav>
       <a routerLink="/login" routerLinkActive="active">Login</a>
       <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+      <a routerLink="/reset" routerLinkActive="active">reset</a>
     </nav>
     <router-outlet></router-outlet>
   `,
